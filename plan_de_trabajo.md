@@ -257,7 +257,8 @@ Fuera de estos puntos, no hace falta esperar a nadie.
 │   └── 06_extension.ipynb          # A, B, C (una sección cada uno)
 ├── figures/               # PNG que usa el README
 ├── results/               # metrics.csv y preds_*.csv
-└── data/                  # vacío en git (.gitignore): splits.npz, emb_*.npy y projects.xlsx
+└── data/                  # splits.npz SÍ se sube (es pequeño y todos lo necesitan igual);
+                           # NO se suben (.gitignore): projects.xlsx y emb_*.npy (pesados)
 ```
 
 ---
