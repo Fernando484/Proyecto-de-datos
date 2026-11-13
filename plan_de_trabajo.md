@@ -36,7 +36,7 @@ Estas decisiones se toman **juntos el día 1** (30 min) y las tres piezas se con
 | Decisión | Valor |
 |---|---|
 | Etiquetas (nivel 2 y nivel 1) | Se construyen **solo** con `src/labels.py`. Comprobar que se conserva ≈ 90,31 % |
-| Partición | Estratificada por clase, semilla fija, 70/15/15. Índices guardados en `data/splits.npz` (arrays `train_idx`, `val_idx`, `test_idx`) |
+| Partición | Estratificada por clase, semilla fija, 70/15/15. Índices guardados en `data/splits.npz` (arrays `train_idx`, `valid_idx`, `test_idx`) |
 | Métrica principal | macro-F1, y además accuracy y F1 por clase. Baseline: clase mayoritaria |
 | Hiperparámetros | Solo con validación (o CV sobre train). **Test se toca una vez por modelo final** |
 | Ajuste de transformaciones | TF-IDF, vocabulario, Word2Vec y `StandardScaler` se ajustan **solo con train** |
