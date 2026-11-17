@@ -1,0 +1,5 @@
+representacion,modelo,nivel,split,macro_f1,accuracy,ic_low,ic_high
+baseline,mayoritaria,2,val,0.0050066562481912,0.1081926203877423,,
+baseline,mayoritaria,2,test,0.0050144164472859,0.1083784910379324,,
+baseline,mayoritaria,1,val,0.0937827715355805,0.391494684177611,,
+baseline,mayoritaria,1,test,0.09384047119896177,0.3918299291371405,,
